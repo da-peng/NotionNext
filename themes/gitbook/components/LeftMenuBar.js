@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function LeftMenuBar () {
   return (
-    <div className='w-20  border-r hidden lg:block pt-12'>
+    <div className='w-30  border-r hidden lg:block pt-8'>
       <section>
         <Link href='/' legacyBehavior>
           <div className='text-center cursor-pointer  hover:text-black'>
